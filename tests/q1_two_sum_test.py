@@ -4,7 +4,7 @@ from solutions.q1_two_sum import Solution
 # Example 1
 def test_example1_solution_success():
     solution = Solution()
-    output = solution.two_sum(
+    output = solution.twoSum(
         nums=[2, 7, 11, 15],
         target=9,
     )
@@ -15,7 +15,7 @@ def test_example1_solution_success():
 # Example 2
 def test_example2_solution_success():
     solution = Solution()
-    output = solution.two_sum(
+    output = solution.twoSum(
         nums=[3, 2, 4],
         target=6,
     )
@@ -26,7 +26,7 @@ def test_example2_solution_success():
 # Example 3
 def test_example3_solution_success():
     solution = Solution()
-    output = solution.two_sum(
+    output = solution.twoSum(
         nums=[3, 3],
         target=6,
     )
